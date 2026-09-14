@@ -1,0 +1,182 @@
+[
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "clusters": 100
+    },
+    "name": "vyas-cluster",
+    "sweep_param": "clusters",
+    "latency": 1363.806640625,
+    "evals": {
+      "accuracy": 0.6553707395183164
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "clusters": 100
+    },
+    "name": "vyas-cluster",
+    "sweep_param": "clusters",
+    "latency": 1343.09716796875,
+    "evals": {
+      "accuracy": 0.6474625012254501
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "clusters": 100
+    },
+    "name": "vyas-cluster",
+    "sweep_param": "clusters",
+    "latency": 1406.5694580078125,
+    "evals": {
+      "accuracy": 0.6405346230515343
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "clusters": 250
+    },
+    "name": "vyas-cluster",
+    "sweep_param": "clusters",
+    "latency": 1427.647216796875,
+    "evals": {
+      "accuracy": 0.6693572105486749
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "clusters": 250
+    },
+    "name": "vyas-cluster",
+    "sweep_param": "clusters",
+    "latency": 1398.2498779296875,
+    "evals": {
+      "accuracy": 0.6643246952713964
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "clusters": 250
+    },
+    "name": "vyas-cluster",
+    "sweep_param": "clusters",
+    "latency": 1428.34423828125,
+    "evals": {
+      "accuracy": 0.6597496813829613
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "clusters": 500
+    },
+    "name": "vyas-cluster",
+    "sweep_param": "clusters",
+    "latency": 1550.184326171875,
+    "evals": {
+      "accuracy": 0.6819711774125029
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "clusters": 500
+    },
+    "name": "vyas-cluster",
+    "sweep_param": "clusters",
+    "latency": 1553.7725830078125,
+    "evals": {
+      "accuracy": 0.6756968726512206
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "clusters": 500
+    },
+    "name": "vyas-cluster",
+    "sweep_param": "clusters",
+    "latency": 1567.2186279296875,
+    "evals": {
+      "accuracy": 0.679618313127022
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "clusters": 1000
+    },
+    "name": "vyas-cluster",
+    "sweep_param": "clusters",
+    "latency": 1911.4593505859375,
+    "evals": {
+      "accuracy": 0.6875592300905199
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "clusters": 1000
+    },
+    "name": "vyas-cluster",
+    "sweep_param": "clusters",
+    "latency": 1943.2152099609375,
+    "evals": {
+      "accuracy": 0.6940949642168557
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "clusters": 1000
+    },
+    "name": "vyas-cluster",
+    "sweep_param": "clusters",
+    "latency": 1948.429443359375,
+    "evals": {
+      "accuracy": 0.6874285154079932
+    }
+  }
+]

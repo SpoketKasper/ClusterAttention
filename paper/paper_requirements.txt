@@ -1,0 +1,15 @@
+modal==1.5.5
+ipykernel==7.3.0
+pandas==3.0.5
+python-dotenv==1.2.3
+huggingface-hub==1.27.0
+matplotlib==3.11.1
+
+# vit
+timm==1.0.28
+pillow==12.3.0
+
+# wan eval
+av==18.1.0
+lpips==0.1.4
+scikit-image==0.26.0

@@ -1,0 +1,587 @@
+[
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.01
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 559.2025756835938,
+    "evals": {
+      "accuracy": 0.8173724735322425
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.01
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 556.236328125,
+    "evals": {
+      "accuracy": 0.8103602364911315
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.01
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 557.1278686523438,
+    "evals": {
+      "accuracy": 0.803691736559879
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.05
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 581.25634765625,
+    "evals": {
+      "accuracy": 0.8457651588065448
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.05
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 585.2985229492188,
+    "evals": {
+      "accuracy": 0.8456964113845731
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.05
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 585.8207397460938,
+    "evals": {
+      "accuracy": 0.8421559191530318
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.1
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 615.96630859375,
+    "evals": {
+      "accuracy": 0.8497181355699162
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.1
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 614.7225952148438,
+    "evals": {
+      "accuracy": 0.8499931252578028
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.1
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 615.3981323242188,
+    "evals": {
+      "accuracy": 0.8508868417434347
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.4
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 840.1312255859375,
+    "evals": {
+      "accuracy": 0.855046060772721
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.4
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 839.3627319335938,
+    "evals": {
+      "accuracy": 0.8550804344837069
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.4
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 838.1369018554688,
+    "evals": {
+      "accuracy": 0.8551835556166644
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.8
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 1132.1990966796875,
+    "evals": {
+      "accuracy": 0.8560085246803245
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.8
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 1131.430419921875,
+    "evals": {
+      "accuracy": 0.8559397772583528
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.8
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 1131.79345703125,
+    "evals": {
+      "accuracy": 0.8560428983913103
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 1.0
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 1283.40625,
+    "evals": {
+      "accuracy": 0.8559741509693386
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 1.0
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 1279.861572265625,
+    "evals": {
+      "accuracy": 0.8562491406572253
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 1.0
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 1280.4365234375,
+    "evals": {
+      "accuracy": 0.8562835143682112
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.1
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 491.77447509765625,
+    "evals": {
+      "accuracy": 0.8441839681011962
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.1
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 488.1645202636719,
+    "evals": {
+      "accuracy": 0.8462120170493607
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.1
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 486.52349853515625,
+    "evals": {
+      "accuracy": 0.844218341812182
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.4
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 710.8992309570312,
+    "evals": {
+      "accuracy": 0.8513336999862505
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.4
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 712.4020385742188,
+    "evals": {
+      "accuracy": 0.8496493881479444
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.4
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 711.5824584960938,
+    "evals": {
+      "accuracy": 0.8518149319400522
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.8
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 1014.1469116210938,
+    "evals": {
+      "accuracy": 0.8538086071772308
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.8
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 1010.5484619140625,
+    "evals": {
+      "accuracy": 0.854839818506806
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 0.8
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 1010.5230712890625,
+    "evals": {
+      "accuracy": 0.854633576240891
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 1.0
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 1171.9840087890625,
+    "evals": {
+      "accuracy": 0.855905403547367
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 1.0
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 1165.5821533203125,
+    "evals": {
+      "accuracy": 0.8559741509693386
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "k_frac": 1.0
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 1170.627197265625,
+    "evals": {
+      "accuracy": 0.8559741509693386
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "top_p": 0.8
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 2313.34326171875,
+    "evals": {
+      "accuracy": 0.8481369448645676
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "top_p": 0.8
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 2308.708251953125,
+    "evals": {
+      "accuracy": 0.8488244190842843
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "top_p": 0.8
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 2311.64599609375,
+    "evals": {
+      "accuracy": 0.8475182180668225
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "top_p": 0.9
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 2555.090576171875,
+    "evals": {
+      "accuracy": 0.85356799120033
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "top_p": 0.9
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 2546.76904296875,
+    "evals": {
+      "accuracy": 0.8545648288189193
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "top_p": 0.9
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 2556.606689453125,
+    "evals": {
+      "accuracy": 0.8541179705761034
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "top_p": 1.0
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 3352.82666015625,
+    "evals": {
+      "accuracy": 0.8560428983913103
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "top_p": 1.0
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 3356.57470703125,
+    "evals": {
+      "accuracy": 0.8560772721022961
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Rain_in_Australia",
+      "top_p": 1.0
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 3355.993896484375,
+    "evals": {
+      "accuracy": 0.8561460195242678
+    }
+  }
+]

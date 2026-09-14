@@ -1,0 +1,317 @@
+[
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.1
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 400.0754699707031,
+    "evals": {
+      "accuracy": 0.7133427012189144
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.1
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 399.6358642578125,
+    "evals": {
+      "accuracy": 0.7066108950687886
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.1
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 404.36981201171875,
+    "evals": {
+      "accuracy": 0.712264305088069
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.4
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 645.171630859375,
+    "evals": {
+      "accuracy": 0.7279500669912748
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.4
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 644.3480834960938,
+    "evals": {
+      "accuracy": 0.726806313519166
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.4
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 645.0286254882812,
+    "evals": {
+      "accuracy": 0.7282768536975915
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.8
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 973.0355834960938,
+    "evals": {
+      "accuracy": 0.7455638704617497
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.8
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 976.4730224609375,
+    "evals": {
+      "accuracy": 0.7451063690729061
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.8
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 975.3173828125,
+    "evals": {
+      "accuracy": 0.7450736904022744
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 1.0
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 1143.2525634765625,
+    "evals": {
+      "accuracy": 0.747361197346492
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 1.0
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 1143.43115234375,
+    "evals": {
+      "accuracy": 0.7469363746282801
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 1.0
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 1144.3846435546875,
+    "evals": {
+      "accuracy": 0.7472631613345969
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "top_p": 0.8
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 2257.321044921875,
+    "evals": {
+      "accuracy": 0.6936374628280122
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "top_p": 0.8
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 2262.6943359375,
+    "evals": {
+      "accuracy": 0.6886376262213653
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "top_p": 0.8
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 2249.0107421875,
+    "evals": {
+      "accuracy": 0.6845854710630371
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "top_p": 0.9
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 2478.401611328125,
+    "evals": {
+      "accuracy": 0.7217411195712559
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "top_p": 0.9
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 2453.604248046875,
+    "evals": {
+      "accuracy": 0.7249436292931604
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "top_p": 0.9
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 2441.178466796875,
+    "evals": {
+      "accuracy": 0.7223946929838894
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "top_p": 1.0
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 3345.157958984375,
+    "evals": {
+      "accuracy": 0.7472631613345969
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "top_p": 1.0
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 3225.589111328125,
+    "evals": {
+      "accuracy": 0.7473285186758603
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "top_p": 1.0
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 3301.92626953125,
+    "evals": {
+      "accuracy": 0.7472631613345969
+    }
+  }
+]

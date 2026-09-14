@@ -1,0 +1,152 @@
+[
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Smoking_and_Drinking_Dataset_with_body_signal",
+      "k_frac": 0.01
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 5585.798828125,
+    "evals": {
+      "accuracy": 0.6709688808190851
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Smoking_and_Drinking_Dataset_with_body_signal",
+      "k_frac": 0.05
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 6930.2099609375,
+    "evals": {
+      "accuracy": 0.7366318656377667
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Smoking_and_Drinking_Dataset_with_body_signal",
+      "k_frac": 0.1
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 8614.4423828125,
+    "evals": {
+      "accuracy": 0.7391032430524033
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Smoking_and_Drinking_Dataset_with_body_signal",
+      "k_frac": 0.4
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 19317.634765625,
+    "evals": {
+      "accuracy": 0.7402330155848086
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Smoking_and_Drinking_Dataset_with_body_signal",
+      "k_frac": 0.8
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 34659.3046875,
+    "evals": {
+      "accuracy": 0.7404246734251273
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Smoking_and_Drinking_Dataset_with_body_signal",
+      "k_frac": 1.0
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 42633.4765625,
+    "evals": {
+      "accuracy": 0.7404145861703737
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Smoking_and_Drinking_Dataset_with_body_signal",
+      "k_frac": 0.1
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 6497.462890625,
+    "evals": {
+      "accuracy": 0.7264689564734957
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Smoking_and_Drinking_Dataset_with_body_signal",
+      "k_frac": 0.4
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 17256.12109375,
+    "evals": {
+      "accuracy": 0.7393150754022293
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Smoking_and_Drinking_Dataset_with_body_signal",
+      "k_frac": 0.8
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 32658.0546875,
+    "evals": {
+      "accuracy": 0.7401270994098956
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Smoking_and_Drinking_Dataset_with_body_signal",
+      "k_frac": 1.0
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 40654.32421875,
+    "evals": {
+      "accuracy": 0.7406314621475766
+    }
+  }
+]

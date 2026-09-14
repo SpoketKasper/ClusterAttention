@@ -1,0 +1,15 @@
+[
+  {
+    "setup": {
+      "model": "t2v-14B",
+      "gpu": "H200",
+      "size": "1280*720",
+      "prompt_idx": 2,
+      "k_frac": 0.2
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 960526.5,
+    "evals": {}
+  }
+]

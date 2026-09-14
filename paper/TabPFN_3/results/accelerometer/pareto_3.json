@@ -1,0 +1,137 @@
+[
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "num_landmarks": 512
+    },
+    "name": "nystr\u00f6m",
+    "sweep_param": "num_landmarks",
+    "latency": 450.9405822753906,
+    "evals": {
+      "accuracy": 0.6397176562857423
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "num_landmarks": 512
+    },
+    "name": "nystr\u00f6m",
+    "sweep_param": "num_landmarks",
+    "latency": 446.4410705566406,
+    "evals": {
+      "accuracy": 0.635273357079834
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "num_landmarks": 512
+    },
+    "name": "nystr\u00f6m",
+    "sweep_param": "num_landmarks",
+    "latency": 448.3754577636719,
+    "evals": {
+      "accuracy": 0.6601091467599098
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "num_landmarks": 1024
+    },
+    "name": "nystr\u00f6m",
+    "sweep_param": "num_landmarks",
+    "latency": 864.54052734375,
+    "evals": {
+      "accuracy": 0.6603052187836999
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "num_landmarks": 1024
+    },
+    "name": "nystr\u00f6m",
+    "sweep_param": "num_landmarks",
+    "latency": 865.04150390625,
+    "evals": {
+      "accuracy": 0.6635730858468677
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "num_landmarks": 1024
+    },
+    "name": "nystr\u00f6m",
+    "sweep_param": "num_landmarks",
+    "latency": 864.2972412109375,
+    "evals": {
+      "accuracy": 0.655011274141368
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "num_landmarks": 2048
+    },
+    "name": "nystr\u00f6m",
+    "sweep_param": "num_landmarks",
+    "latency": 3574.306884765625,
+    "evals": {
+      "accuracy": 0.6742916898140584
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "num_landmarks": 2048
+    },
+    "name": "nystr\u00f6m",
+    "sweep_param": "num_landmarks",
+    "latency": 3572.806884765625,
+    "evals": {
+      "accuracy": 0.6619718309859155
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100!",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "num_landmarks": 2048
+    },
+    "name": "nystr\u00f6m",
+    "sweep_param": "num_landmarks",
+    "latency": 3572.6416015625,
+    "evals": {
+      "accuracy": 0.6676905983464593
+    }
+  }
+]

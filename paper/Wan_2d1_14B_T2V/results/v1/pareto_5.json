@@ -1,0 +1,15 @@
+[
+  {
+    "setup": {
+      "model": "t2v-14B",
+      "gpu": "H200",
+      "size": "1280*720",
+      "prompt_idx": 1,
+      "top_p": 0.9
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 1200006.0,
+    "evals": {}
+  }
+]

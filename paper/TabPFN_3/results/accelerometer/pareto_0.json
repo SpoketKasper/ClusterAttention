@@ -1,0 +1,356 @@
+[
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer"
+    },
+    "name": "dense",
+    "sweep_param": null,
+    "latency": 1321.709716796875,
+    "evals": {
+      "accuracy": 0.7471978039933336
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer"
+    },
+    "name": "dense",
+    "sweep_param": null,
+    "latency": 1315.9825439453125,
+    "evals": {
+      "accuracy": 0.7471978039933336
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer"
+    },
+    "name": "dense",
+    "sweep_param": null,
+    "latency": 1326.140380859375,
+    "evals": {
+      "accuracy": 0.7471978039933336
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer"
+    },
+    "name": "dense_sage",
+    "sweep_param": null,
+    "latency": 1128.57080078125,
+    "evals": {
+      "accuracy": 0.747557269370282
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer"
+    },
+    "name": "dense_sage",
+    "sweep_param": null,
+    "latency": 1128.7327880859375,
+    "evals": {
+      "accuracy": 0.747557269370282
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer"
+    },
+    "name": "dense_sage",
+    "sweep_param": null,
+    "latency": 1127.5657958984375,
+    "evals": {
+      "accuracy": 0.747557269370282
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.01
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 488.77386474609375,
+    "evals": {
+      "accuracy": 0.7242573772098951
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.01
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 465.61871337890625,
+    "evals": {
+      "accuracy": 0.726610241495376
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.01
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 467.7847595214844,
+    "evals": {
+      "accuracy": 0.7264468481422176
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.05
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 499.91802978515625,
+    "evals": {
+      "accuracy": 0.7424920754223718
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.05
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 500.1829528808594,
+    "evals": {
+      "accuracy": 0.7426881474461619
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.05
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 499.94769287109375,
+    "evals": {
+      "accuracy": 0.7431456488350054
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.1
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 537.1145629882812,
+    "evals": {
+      "accuracy": 0.7447795823665894
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.1
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 539.7888793945312,
+    "evals": {
+      "accuracy": 0.7456619064736446
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.1
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 537.8934936523438,
+    "evals": {
+      "accuracy": 0.7450736904022744
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.4
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 774.0046997070312,
+    "evals": {
+      "accuracy": 0.746642266592595
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.4
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 774.571044921875,
+    "evals": {
+      "accuracy": 0.7470670893108068
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.4
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 772.6775512695312,
+    "evals": {
+      "accuracy": 0.7470670893108068
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.8
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 1095.0478515625,
+    "evals": {
+      "accuracy": 0.7469690532989118
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.8
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 1096.3106689453125,
+    "evals": {
+      "accuracy": 0.7471978039933336
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 0.8
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 1095.9083251953125,
+    "evals": {
+      "accuracy": 0.7472958400052286
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 1.0
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 1261.0916748046875,
+    "evals": {
+      "accuracy": 0.7472958400052286
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 1.0
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 1261.9517822265625,
+    "evals": {
+      "accuracy": 0.7470670893108068
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "accelerometer",
+      "k_frac": 1.0
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 1261.82763671875,
+    "evals": {
+      "accuracy": 0.7468710172870168
+    }
+  }
+]

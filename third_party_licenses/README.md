@@ -1,0 +1,1 @@
+Third party licences for used code, with the exception of SpargeAttention, where the licence is in the `SpargeAttn` folder. For the licences present here, code adaptations are marked in file-headers. For SpargeAttention, modifications are described in the file `USAGE_IN_ClusterAttention.md`.

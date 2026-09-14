@@ -1,0 +1,44 @@
+[
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "CDC_Diabetes_Health_Indicators"
+    },
+    "name": "dense",
+    "sweep_param": null,
+    "latency": 3619.384033203125,
+    "evals": {
+      "accuracy": 0.8680621255124567
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "CDC_Diabetes_Health_Indicators"
+    },
+    "name": "dense",
+    "sweep_param": null,
+    "latency": 3615.281494140625,
+    "evals": {
+      "accuracy": 0.8680621255124567
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "CDC_Diabetes_Health_Indicators"
+    },
+    "name": "dense",
+    "sweep_param": null,
+    "latency": 3616.5146484375,
+    "evals": {
+      "accuracy": 0.8680621255124567
+    }
+  }
+]

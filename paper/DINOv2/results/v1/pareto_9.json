@@ -1,0 +1,914 @@
+[
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 0,
+      "local_context": 32
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 451.0753173828125,
+    "evals": {
+      "flattened_cosine_similarity": 0.4501815438270569,
+      "per_patch_cosine_similarity": {
+        "mean": 0.4490082859992981,
+        "p5": 0.2582269310951233
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 0,
+      "local_context": 64
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 469.5281982421875,
+    "evals": {
+      "flattened_cosine_similarity": 0.4340667724609375,
+      "per_patch_cosine_similarity": {
+        "mean": 0.4337693154811859,
+        "p5": 0.22477319836616516
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 0,
+      "local_context": 128
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 507.457275390625,
+    "evals": {
+      "flattened_cosine_similarity": 0.5103851556777954,
+      "per_patch_cosine_similarity": {
+        "mean": 0.5091642141342163,
+        "p5": 0.2802111804485321
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 0,
+      "local_context": 4096
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 3350.73095703125,
+    "evals": {
+      "flattened_cosine_similarity": 0.8820436000823975,
+      "per_patch_cosine_similarity": {
+        "mean": 0.8817133903503418,
+        "p5": 0.7722055315971375
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 1,
+      "local_context": 32
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 453.0440673828125,
+    "evals": {
+      "flattened_cosine_similarity": 0.2873043715953827,
+      "per_patch_cosine_similarity": {
+        "mean": 0.2876092791557312,
+        "p5": 0.1200554370880127
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 1,
+      "local_context": 64
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 469.70672607421875,
+    "evals": {
+      "flattened_cosine_similarity": 0.34402722120285034,
+      "per_patch_cosine_similarity": {
+        "mean": 0.346068799495697,
+        "p5": 0.15368786454200745
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 1,
+      "local_context": 128
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 507.12322998046875,
+    "evals": {
+      "flattened_cosine_similarity": 0.37040549516677856,
+      "per_patch_cosine_similarity": {
+        "mean": 0.37361446022987366,
+        "p5": 0.1592896431684494
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 1,
+      "local_context": 4096
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 3337.1650390625,
+    "evals": {
+      "flattened_cosine_similarity": 0.7496054768562317,
+      "per_patch_cosine_similarity": {
+        "mean": 0.7476317286491394,
+        "p5": 0.4613899886608124
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 2,
+      "local_context": 32
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 451.43243408203125,
+    "evals": {
+      "flattened_cosine_similarity": 0.3741472363471985,
+      "per_patch_cosine_similarity": {
+        "mean": 0.37622109055519104,
+        "p5": 0.20742490887641907
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 2,
+      "local_context": 64
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 470.64654541015625,
+    "evals": {
+      "flattened_cosine_similarity": 0.3845475912094116,
+      "per_patch_cosine_similarity": {
+        "mean": 0.38708603382110596,
+        "p5": 0.20375417172908783
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 2,
+      "local_context": 128
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 507.1132507324219,
+    "evals": {
+      "flattened_cosine_similarity": 0.45052748918533325,
+      "per_patch_cosine_similarity": {
+        "mean": 0.45263513922691345,
+        "p5": 0.2440805584192276
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 2,
+      "local_context": 4096
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 3339.396728515625,
+    "evals": {
+      "flattened_cosine_similarity": 0.8713141679763794,
+      "per_patch_cosine_similarity": {
+        "mean": 0.8712674379348755,
+        "p5": 0.74711012840271
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 3,
+      "local_context": 32
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 453.2525329589844,
+    "evals": {
+      "flattened_cosine_similarity": 0.33686402440071106,
+      "per_patch_cosine_similarity": {
+        "mean": 0.34034547209739685,
+        "p5": 0.16501069068908691
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 3,
+      "local_context": 64
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 469.9342956542969,
+    "evals": {
+      "flattened_cosine_similarity": 0.38145843148231506,
+      "per_patch_cosine_similarity": {
+        "mean": 0.38655367493629456,
+        "p5": 0.20546980202198029
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 3,
+      "local_context": 128
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 507.8054504394531,
+    "evals": {
+      "flattened_cosine_similarity": 0.4055505394935608,
+      "per_patch_cosine_similarity": {
+        "mean": 0.4104819893836975,
+        "p5": 0.21065837144851685
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 3,
+      "local_context": 4096
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 3339.40869140625,
+    "evals": {
+      "flattened_cosine_similarity": 0.8546370267868042,
+      "per_patch_cosine_similarity": {
+        "mean": 0.8547707796096802,
+        "p5": 0.7049515843391418
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 4,
+      "local_context": 32
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 453.35394287109375,
+    "evals": {
+      "flattened_cosine_similarity": 0.4273971915245056,
+      "per_patch_cosine_similarity": {
+        "mean": 0.4267633557319641,
+        "p5": 0.23637522757053375
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 4,
+      "local_context": 64
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 470.2911682128906,
+    "evals": {
+      "flattened_cosine_similarity": 0.38895314931869507,
+      "per_patch_cosine_similarity": {
+        "mean": 0.38969895243644714,
+        "p5": 0.20022322237491608
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 4,
+      "local_context": 128
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 508.2528076171875,
+    "evals": {
+      "flattened_cosine_similarity": 0.44585439562797546,
+      "per_patch_cosine_similarity": {
+        "mean": 0.4455650746822357,
+        "p5": 0.26296311616897583
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 4,
+      "local_context": 4096
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 3346.709228515625,
+    "evals": {
+      "flattened_cosine_similarity": 0.8776112794876099,
+      "per_patch_cosine_similarity": {
+        "mean": 0.8776109218597412,
+        "p5": 0.7665214538574219
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 5,
+      "local_context": 32
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 452.21795654296875,
+    "evals": {
+      "flattened_cosine_similarity": 0.31286606192588806,
+      "per_patch_cosine_similarity": {
+        "mean": 0.3146074712276459,
+        "p5": 0.16529138386249542
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 5,
+      "local_context": 64
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 469.251953125,
+    "evals": {
+      "flattened_cosine_similarity": 0.29924094676971436,
+      "per_patch_cosine_similarity": {
+        "mean": 0.30088621377944946,
+        "p5": 0.1667451113462448
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 5,
+      "local_context": 128
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 507.1797790527344,
+    "evals": {
+      "flattened_cosine_similarity": 0.3305668532848358,
+      "per_patch_cosine_similarity": {
+        "mean": 0.3323923945426941,
+        "p5": 0.18049873411655426
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 5,
+      "local_context": 4096
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 3337.255859375,
+    "evals": {
+      "flattened_cosine_similarity": 0.824280858039856,
+      "per_patch_cosine_similarity": {
+        "mean": 0.8262085318565369,
+        "p5": 0.6724545955657959
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 6,
+      "local_context": 32
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 453.5484619140625,
+    "evals": {
+      "flattened_cosine_similarity": 0.3707907497882843,
+      "per_patch_cosine_similarity": {
+        "mean": 0.37302690744400024,
+        "p5": 0.20808371901512146
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 6,
+      "local_context": 64
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 470.3865051269531,
+    "evals": {
+      "flattened_cosine_similarity": 0.4474034309387207,
+      "per_patch_cosine_similarity": {
+        "mean": 0.4506034851074219,
+        "p5": 0.24465703964233398
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 6,
+      "local_context": 128
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 508.0032958984375,
+    "evals": {
+      "flattened_cosine_similarity": 0.4106858968734741,
+      "per_patch_cosine_similarity": {
+        "mean": 0.4155938923358917,
+        "p5": 0.18674486875534058
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 6,
+      "local_context": 4096
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 3346.397705078125,
+    "evals": {
+      "flattened_cosine_similarity": 0.8909475803375244,
+      "per_patch_cosine_similarity": {
+        "mean": 0.8914567232131958,
+        "p5": 0.7662469744682312
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 7,
+      "local_context": 32
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 453.9522705078125,
+    "evals": {
+      "flattened_cosine_similarity": 0.4106464385986328,
+      "per_patch_cosine_similarity": {
+        "mean": 0.4136805236339569,
+        "p5": 0.22584488987922668
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 7,
+      "local_context": 64
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 469.14019775390625,
+    "evals": {
+      "flattened_cosine_similarity": 0.42853856086730957,
+      "per_patch_cosine_similarity": {
+        "mean": 0.43019798398017883,
+        "p5": 0.24578730762004852
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 7,
+      "local_context": 128
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 507.1369323730469,
+    "evals": {
+      "flattened_cosine_similarity": 0.44930127263069153,
+      "per_patch_cosine_similarity": {
+        "mean": 0.45279619097709656,
+        "p5": 0.22982165217399597
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 7,
+      "local_context": 4096
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 3337.327880859375,
+    "evals": {
+      "flattened_cosine_similarity": 0.8560930490493774,
+      "per_patch_cosine_similarity": {
+        "mean": 0.8560426235198975,
+        "p5": 0.7265722155570984
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 8,
+      "local_context": 32
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 451.40789794921875,
+    "evals": {
+      "flattened_cosine_similarity": 0.3418404757976532,
+      "per_patch_cosine_similarity": {
+        "mean": 0.3442145586013794,
+        "p5": 0.18163460493087769
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 8,
+      "local_context": 64
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 469.2204284667969,
+    "evals": {
+      "flattened_cosine_similarity": 0.3611066937446594,
+      "per_patch_cosine_similarity": {
+        "mean": 0.36531051993370056,
+        "p5": 0.14387767016887665
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 8,
+      "local_context": 128
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 507.0553894042969,
+    "evals": {
+      "flattened_cosine_similarity": 0.4469068646430969,
+      "per_patch_cosine_similarity": {
+        "mean": 0.4509821832180023,
+        "p5": 0.2225441187620163
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 8,
+      "local_context": 4096
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 3336.699462890625,
+    "evals": {
+      "flattened_cosine_similarity": 0.8622352480888367,
+      "per_patch_cosine_similarity": {
+        "mean": 0.8636285066604614,
+        "p5": 0.7183385491371155
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 9,
+      "local_context": 32
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 453.2260437011719,
+    "evals": {
+      "flattened_cosine_similarity": 0.3162195086479187,
+      "per_patch_cosine_similarity": {
+        "mean": 0.3164127767086029,
+        "p5": 0.15483705699443817
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 9,
+      "local_context": 64
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 469.346435546875,
+    "evals": {
+      "flattened_cosine_similarity": 0.39959436655044556,
+      "per_patch_cosine_similarity": {
+        "mean": 0.4003779888153076,
+        "p5": 0.16217266023159027
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 9,
+      "local_context": 128
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 507.23724365234375,
+    "evals": {
+      "flattened_cosine_similarity": 0.41645365953445435,
+      "per_patch_cosine_similarity": {
+        "mean": 0.41911807656288147,
+        "p5": 0.1651795506477356
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 9,
+      "local_context": 4096
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 3338.4482421875,
+    "evals": {
+      "flattened_cosine_similarity": 0.8726660013198853,
+      "per_patch_cosine_similarity": {
+        "mean": 0.8736655116081238,
+        "p5": 0.7177368998527527
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 10,
+      "local_context": 32
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 454.6195983886719,
+    "evals": {
+      "flattened_cosine_similarity": 0.3224561810493469,
+      "per_patch_cosine_similarity": {
+        "mean": 0.3256635069847107,
+        "p5": 0.14573585987091064
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 10,
+      "local_context": 64
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 470.2027587890625,
+    "evals": {
+      "flattened_cosine_similarity": 0.3479847311973572,
+      "per_patch_cosine_similarity": {
+        "mean": 0.3514520227909088,
+        "p5": 0.13344277441501617
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 10,
+      "local_context": 128
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 508.1119689941406,
+    "evals": {
+      "flattened_cosine_similarity": 0.399117112159729,
+      "per_patch_cosine_similarity": {
+        "mean": 0.4028592109680176,
+        "p5": 0.1963486224412918
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 10,
+      "local_context": 4096
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 3346.42578125,
+    "evals": {
+      "flattened_cosine_similarity": 0.8852024078369141,
+      "per_patch_cosine_similarity": {
+        "mean": 0.8863933086395264,
+        "p5": 0.7676812410354614
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 11,
+      "local_context": 32
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 451.983154296875,
+    "evals": {
+      "flattened_cosine_similarity": 0.2964538037776947,
+      "per_patch_cosine_similarity": {
+        "mean": 0.2988192141056061,
+        "p5": 0.15327413380146027
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 11,
+      "local_context": 64
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 470.12744140625,
+    "evals": {
+      "flattened_cosine_similarity": 0.32935550808906555,
+      "per_patch_cosine_similarity": {
+        "mean": 0.3323117792606354,
+        "p5": 0.16626667976379395
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 11,
+      "local_context": 128
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 508.327880859375,
+    "evals": {
+      "flattened_cosine_similarity": 0.35117408633232117,
+      "per_patch_cosine_similarity": {
+        "mean": 0.3555588126182556,
+        "p5": 0.16680914163589478
+      }
+    }
+  },
+  {
+    "setup": {
+      "model": "vit_large_patch14_dinov2.lvd142m",
+      "gpu": "H100!",
+      "resolution": 2072,
+      "image": 11,
+      "local_context": 4096
+    },
+    "name": "scatterbrain",
+    "sweep_param": "local_context",
+    "latency": 3346.517578125,
+    "evals": {
+      "flattened_cosine_similarity": 0.8504626154899597,
+      "per_patch_cosine_similarity": {
+        "mean": 0.851165771484375,
+        "p5": 0.7213776707649231
+      }
+    }
+  }
+]

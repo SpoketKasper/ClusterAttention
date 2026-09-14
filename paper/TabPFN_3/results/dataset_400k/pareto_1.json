@@ -1,0 +1,197 @@
+[
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "k_frac": 0.01
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 2908.496337890625,
+    "evals": {
+      "accuracy": 0.8568321153745875
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "k_frac": 0.05
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 3516.343994140625,
+    "evals": {
+      "accuracy": 0.8866665176808873
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "k_frac": 0.1
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 4294.95654296875,
+    "evals": {
+      "accuracy": 0.8967156084951692
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "k_frac": 0.4
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 8992.7822265625,
+    "evals": {
+      "accuracy": 0.9001124842633771
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "k_frac": 0.8
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 15347.845703125,
+    "evals": {
+      "accuracy": 0.9009244567606022
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "k_frac": 1.0
+    },
+    "name": "clusterattention_topk_finecomp",
+    "sweep_param": "k_frac",
+    "latency": 18465.1953125,
+    "evals": {
+      "accuracy": 0.9007680216923295
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "k_frac": 0.1
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 3213.0986328125,
+    "evals": {
+      "accuracy": 0.8948160398090003
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "k_frac": 0.4
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 8001.7705078125,
+    "evals": {
+      "accuracy": 0.9069881779784119
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "k_frac": 0.8
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 14359.8203125,
+    "evals": {
+      "accuracy": 0.906057016857741
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "k_frac": 1.0
+    },
+    "name": "random_topk",
+    "sweep_param": "k_frac",
+    "latency": 17648.060546875,
+    "evals": {
+      "accuracy": 0.9006190359130221
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "top_p": 0.8
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 16496.1875,
+    "evals": {
+      "accuracy": 0.9040233609701954
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "top_p": 0.9
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 19332.201171875,
+    "evals": {
+      "accuracy": 0.9012596747640438
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding",
+      "top_p": 1.0
+    },
+    "name": "svoo",
+    "sweep_param": "top_p",
+    "latency": 29822.541015625,
+    "evals": {
+      "accuracy": 0.9008723117378447
+    }
+  }
+]

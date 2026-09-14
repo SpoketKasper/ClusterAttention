@@ -1,0 +1,30 @@
+[
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding"
+    },
+    "name": "dense",
+    "sweep_param": null,
+    "latency": 23327.4921875,
+    "evals": {
+      "accuracy": 0.9004774994226801
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Data_Science_for_Good_Kiva_Crowdfunding"
+    },
+    "name": "dense_sage",
+    "sweep_param": null,
+    "latency": 17566.9140625,
+    "evals": {
+      "accuracy": 0.901445906988178
+    }
+  }
+]

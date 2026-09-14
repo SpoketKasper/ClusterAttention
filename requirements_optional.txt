@@ -1,0 +1,6 @@
+cupy-cuda12x==14.1.1  # not really used? but in some experiments
+llnl-hatchet==2026.1.0  # for timing in cluster_attention
+# alternative sparse attention kernel (to modified sparge) for cluster_attention
+flashinfer-python==0.6.16.post3
+--extra-index-url https://flashinfer.ai/whl  # for flashinfer-cubin but is applied to all in this file
+flashinfer-cubin==0.6.16.post3

@@ -1,0 +1,14 @@
+[
+  {
+    "setup": {
+      "model": "t2v-14B",
+      "gpu": "H200",
+      "size": "1280*720",
+      "prompt_idx": 4
+    },
+    "name": "dense",
+    "sweep_param": null,
+    "latency": 1699199.0,
+    "evals": {}
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Smoking_and_Drinking_Dataset_with_body_signal"
+    },
+    "name": "dense",
+    "sweep_param": null,
+    "latency": 50573.69921875,
+    "evals": {
+      "accuracy": 0.7405356332274171
+    }
+  },
+  {
+    "setup": {
+      "model": "tabpfn_v3",
+      "gpu": "H100",
+      "n_estimators": 1,
+      "dataset": "Smoking_and_Drinking_Dataset_with_body_signal"
+    },
+    "name": "dense_sage",
+    "sweep_param": null,
+    "latency": 38866.05859375,
+    "evals": {
+      "accuracy": 0.7406264185201997
+    }
+  }
+]
